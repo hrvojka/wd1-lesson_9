@@ -4,7 +4,7 @@ while True:
     km = input("Enter km: ")
     km = float(km.replace(",","."))
     miles = km * 0.62137119224
-    print("Miles: {1}".format(km, miles))
+    print(f"Miles: {miles}")
     question = input("Continue (y/n): ").lower()
     if question == "n":
         print("Goodbye..")
@@ -15,3 +15,4 @@ while True:
         if question == "n":
             print("Goodbye..")
             break
+
